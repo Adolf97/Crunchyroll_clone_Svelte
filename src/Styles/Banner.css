@@ -1,0 +1,63 @@
+.banner__container {
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10vh;
+    background-color: #000;
+}
+.image__container {
+    position: relative;
+    width: 100%;
+    height: 83%;
+    background-color: #ffb121;
+}
+.image__container > img {
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn__watchNow {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 600;
+    border: none;
+
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn__watchNow:hover {
+    cursor: pointer;
+}
+.anime_season__container {
+    position: relative;
+    width: 80%;
+    height: 17%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.anime_season__item {
+    width: 90%;
+    height: 60%;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #2e2e2e;
+    padding: 8px;
+    line-height: 16px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
