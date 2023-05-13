@@ -6,7 +6,7 @@
 
 <div class="header__container">
     <div class="logo__container">
-        <img src={Logo} alt="Crunchyroll Logo">
+        <a href="/"><img src={Logo} alt="Crunchyroll Logo"></a>
     </div>
     <div class="menu__container">
         <ul class="menu__list">

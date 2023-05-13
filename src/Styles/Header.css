@@ -19,7 +19,7 @@
     align-items: center;
     padding: 13px;
 }
-.logo__container > img {
+.logo__container > a > img {
     width: 140px;
     height: 25px;
 }
