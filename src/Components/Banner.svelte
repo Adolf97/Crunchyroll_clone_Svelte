@@ -6,7 +6,7 @@
 <div class="banner__container">
     <div class="image__container">
         <img src={Banner} alt="">
-        <button class="btn__watchNow">WATCH NOW</button>
+        <button class="btn__watchNow"><a href="/series/attack-on-titan">WATCH NOW</a></button>
     </div>
     <div class="anime_season__container">
         <div class="anime_season__item">Shingeky No Kyojin: Final Season</div>
