@@ -1,0 +1,98 @@
+* {
+    color: #fff;
+}
+.main_infoAOT__container {
+    position: relative;
+    width: 85%;
+    height: auto;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.info__container {
+    width: 68%;
+    height: auto;
+}
+.info__container > h1 {
+    font-size: 35px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+.info__container > h5 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #cbcbcb;
+}
+.reviews__container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 0;
+    gap: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.reviews-stars,
+.reviews-average {
+    padding-right: 10px;
+    border-right: 1px solid #c6c6c6;
+}
+.icon_star {
+    color: #d3d3d3;
+}
+.buttons_container {
+    margin-bottom: 20px;
+}
+.btn_addToWatchList {
+    padding: 10px 12px;
+    border: 2px solid #ff7504;
+    background-color: transparent;
+    font-size: 13px;
+    color: #ff7504;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 15px;
+}
+.btn_addToCrunchyList {
+    padding: 10px 12px;
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+    color: #a1a1a1;
+}
+.synopsis_container {
+    width: 95%;
+    height: auto;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: justify;
+}
+/*---------------------------------------------*/
+.episode__container {
+    width: 30%;
+    height: auto;
+    padding-top: 15px;
+}
+.episode_img_container {
+    width: 100%;
+    height: 200px;
+}
+.episode_img_container > img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.btn_watchEpisode {
+    width: 100%;
+    height: auto;
+    padding: 12px 5px;
+    border: none;
+    background-color: #fc7d14;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 900;
+}

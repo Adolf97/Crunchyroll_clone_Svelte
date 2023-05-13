@@ -1,0 +1,16 @@
+.bannerAOT__container {
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    margin-top: 10vh;
+    background-color: #1b1b1b;
+    overflow-y: hidden;
+}
+.bannerAOT__container > img {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
